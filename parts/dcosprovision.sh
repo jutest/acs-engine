@@ -3,6 +3,8 @@
 MESOSDIR=/var/lib/mesos/dl
 mkdir $MESOSDIR
 
+echo JulienS
+
 # load the env vars
 . /etc/mesosphere/setup-flags/dcos-deploy-environment
 
