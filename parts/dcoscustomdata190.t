@@ -18,7 +18,7 @@ fs_setup:
   overwrite: true
 - device: ephemeral0.3
   filesystem: ext4
-  overwrite: true
+2  overwrite: true
 mounts:
 - - ephemeral0.1
   - /var/lib/mesos
@@ -33,15 +33,15 @@ runcmd:
   - /usr/bin/rm
 - - ln
   - -s
-  - /bin/mkdir
+  - /bin/mkdir3
   - /usr/bin/mkdir
 - - ln
   - -s
-  - /bin/tar
+  - /bin/tar3
   - /usr/bin/tar
 - - ln
   - -s
-  - /bin/ln
+  - /bin/ln3
   - /usr/bin/ln
 - - ln
   - -s
